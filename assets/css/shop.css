@@ -1,0 +1,24 @@
+.footer {
+    visibility: hidden;
+}
+
+.btn-secondary {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-secondary:hover {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+}
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow:transparent;
+}
+
