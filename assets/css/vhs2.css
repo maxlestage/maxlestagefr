@@ -1,94 +1,97 @@
 @font-face {
-    font-family: "VCR OSD Mono";
-    src: url("//works.rocheclement.fr/portraitchinois/fonts/VCR.ttf");
+  font-family: "VCR OSD Mono";
+  src: url("//works.rocheclement.fr/portraitchinois/fonts/VCR.ttf");
 }
 
-
-body{
-    font-family: "VCR OSD Mono";
-    /* font VCR -> http://www.dafont.com/fr/vcr-osd-mono.font */
-    background-color:black;
-    color:lightgrey;
-    overflow:hidden;
-    background-image: url("https://68.media.tumblr.com/595a5fa01fe53ca0e4ca8f37bacc849d/tumblr_nve67mJtue1tanofjo1_500.gif");
-    background-size:cover;
-    margin:0;
-    text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
-
+body {
+  font-family: "VCR OSD Mono";
+  /* font VCR -> http://www.dafont.com/fr/vcr-osd-mono.font */
+  background-color: black;
+  color: lightgrey;
+  overflow: hidden;
+  background-image: url("https://68.media.tumblr.com/595a5fa01fe53ca0e4ca8f37bacc849d/tumblr_nve67mJtue1tanofjo1_500.gif");
+  background-size: cover;
+  margin: 0;
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px,
+    black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px,
+    black -2px 0px 1px;
 }
 
-.background{
-    font-family: "VCR OSD Mono";
-    /* font VCR -> http://www.dafont.com/fr/vcr-osd-mono.font */
-    background-color:black;
-    color:lightgrey;
-    overflow:hidden;
-    background-image:url('https://media.giphy.com/media/EO9j0o6pHdYmk/giphy.gif');
-    background-size:cover;
-    /*   background-position: center; */
-    margin:0;
-    text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
+.background {
+  font-family: "VCR OSD Mono";
+  /* font VCR -> http://www.dafont.com/fr/vcr-osd-mono.font */
+  background-color: black;
+  color: lightgrey;
+  overflow: hidden;
+  background-image: url("https://media.giphy.com/media/EO9j0o6pHdYmk/giphy.gif");
+  background-size: cover;
+  /*   background-position: center; */
+  margin: 0;
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px,
+    black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px,
+    black -2px 0px 1px;
 }
-
-
-
-
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-h1{
-    font-weight:normal;
-    font-size:5rem;
-    width:750px;
-    text-align: center;
+h1 {
+  font-weight: normal;
+  font-size: 5rem;
+  width: 750px;
+  text-align: center;
 }
 
 *::selection {
-    background: white;
+  background: white;
 }
 
 .calendar {
-    position: fixed;
-    left: 120px;
-    bottom: 60px;
+  position: fixed;
+  left: 120px;
+  bottom: 60px;
 }
 
 aside {
-    font-size:3rem;
+  font-size: 3rem;
 }
 
-a{
-    padding:5px;
+a {
+  padding: 5px;
 }
 
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 
-    background-color:black;
+  background-color: black;
 }
 
 aside:hover {
-
-    cursor: default;
+  cursor: default;
 }
 
 ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .play {
-
-    position: fixed;
-    left: 120px;
-    top: 60px;
+  position: fixed;
+  left: 120px;
+  top: 60px;
 }
 
-
+h2 {
+  margin-top: 200px;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-left: -702px;
+}
