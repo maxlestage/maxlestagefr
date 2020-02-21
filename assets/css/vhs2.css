@@ -88,11 +88,10 @@ ul {
   top: 60px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   h1 {
     font-weight: normal;
     font-size: 1rem;
-    width: 750px;
     text-align: center;
   }
 }
