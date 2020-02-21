@@ -96,7 +96,7 @@ h2 {
   margin-left: -702px;
 }
 
-@media (max-width: 568px) {
+@media (min-width: 568px) {
   h1 {
     font-weight: normal;
     font-size: 2rem;
@@ -117,7 +117,7 @@ h2 {
   }
 }
 
-@media (max-width: 667px) {
+@media (min-width: 667px) {
   h1 {
     font-weight: normal;
     font-size: 2rem;
@@ -139,7 +139,7 @@ h2 {
   }
 }
 
-@media (max-width: 736px) {
+@media (min-width: 736px) {
   h1 {
     font-weight: normal;
     font-size: 2rem;
@@ -161,7 +161,7 @@ h2 {
   }
 }
 
-@media (max-width: 812px) {
+@media (min-width: 812px) {
   h1 {
     font-weight: normal;
     font-size: 2rem;
@@ -185,22 +185,24 @@ h2 {
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   h1 {
     font-weight: normal;
     font-size: 2rem;
     width: 100%;
     text-align: center;
-    margin-left: -80px;
-    margin-top: -275px;
+    margin-left: -16px;
+    margin-top: -190px;
+    z-index: 2;
   }
   h2 {
     margin-top: 120px;
     font-weight: normal;
     font-size: 1rem;
     text-align: center;
-    padding-bottom: 0px;
-    margin-left: -740px;
+    margin-bottom: 200px;
+    margin-left: -352px;
+    z-index: -5;
   }
   aside {
     font-size: 1.5rem;
