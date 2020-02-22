@@ -12643,4 +12643,11 @@ textarea.form-control {
   .ftco-about ul.about-info li span {
     color: #000;
   }
+  .hero-wrap {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
 }
