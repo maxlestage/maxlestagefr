@@ -11441,12 +11441,6 @@ h5,
   color: #fff;
 }
 
-.btn.btn-primary:hover {
-  border: 1px solid #ffffff !important;
-  background: #ffffff8a !important;
-  color: #000000 !important;
-}
-
 .ftco-about .img-about {
   width: 100%;
   z-index: 0;
