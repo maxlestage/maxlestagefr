@@ -11437,13 +11437,13 @@ h5,
 }
 .btn.btn-white.btn-outline-white:hover {
   border: 1px solid transparent;
-  background: #ffffff8a !important;
+  background: #00000064 !important;
   color: #fff;
 }
 
 .btn.btn-primary:hover {
   border: 1px solid #ffffff !important;
-  background: #ffffff8a !important;
+  background: #00000064 !important;
   color: #000000 !important;
 }
 
