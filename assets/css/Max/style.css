@@ -11437,8 +11437,14 @@ h5,
 }
 .btn.btn-white.btn-outline-white:hover {
   border: 1px solid transparent;
-  background: #ffbd39;
+  background: #ffffff8a !important;
   color: #fff;
+}
+
+.btn.btn-primary:hover {
+  border: 1px solid #ffffff !important;
+  background: #ffffff8a !important;
+  color: #000000 !important;
 }
 
 .ftco-about .img-about {
