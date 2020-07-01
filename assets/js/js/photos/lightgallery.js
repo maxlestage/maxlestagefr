@@ -57,7 +57,7 @@
 
         iframeMaxWidth: '100%',
 
-        download: false,
+        download: true,
         counter: true,
         appendCounterTo: '.lg-toolbar',
 
@@ -355,10 +355,9 @@
             _this.$outer.addClass('lg-visible');
         }, this.s.backdropDuration);
 
-        // pour bloquer le téléchargement
-        /*if (this.s.download) {
+        if (this.s.download) {
             this.$outer.find('.lg-toolbar').append('<a id="lg-download" target="_blank" download class="lg-download lg-icon"></a>');
-        }*/
+        }
 
         // Store the current scroll top value to scroll back after closing the gallery..
         this.prevScrollTop = $(window).scrollTop();
@@ -769,9 +768,7 @@
 
         if (!_this.lgBusy) {
 
-
-            // Pour bloquer le téléchargement
-            /*if (this.s.download) {
+            if (this.s.download) {
                 var _src;
                 if (_this.s.dynamic) {
                     _src = _this.s.dynamicEl[index].downloadUrl !== false && (_this.s.dynamicEl[index].downloadUrl || _this.s.dynamicEl[index].src);
@@ -786,7 +783,7 @@
                 } else {
                     _this.$outer.addClass('lg-hide-download');
                 }
-            }*/
+            }
 
             this.$el.trigger('onBeforeSlide.lg', [_prevIndex, index, fromTouch, fromThumb]);
 
