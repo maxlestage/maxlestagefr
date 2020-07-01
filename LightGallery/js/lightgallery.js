@@ -374,9 +374,10 @@
             _this.$outer.addClass('lg-visible');
         }, this.s.backdropDuration);
 
-        if (this.s.download) {
-            this.$outer.find('.lg-toolbar').append('<a id="lg-download" target="_blank" download class="lg-download lg-icon"></a>');
-        }
+        // test pour bloquer le téléchargement.
+        //if (this.s.download) {
+          //  this.$outer.find('.lg-toolbar').append('<a id="lg-download" target="_blank" download class="lg-download lg-icon"></a>');
+       // }
 
         // Store the current scroll top value to scroll back after closing the gallery..
         this.prevScrollTop = $(window).scrollTop();
