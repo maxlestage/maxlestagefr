@@ -75,8 +75,8 @@
         index: false,
 
         iframeMaxWidth: '100%',
-
-        download: true,
+// bloquer le téléchargement
+        download: false,
         counter: true,
         appendCounterTo: '.lg-toolbar',
 
