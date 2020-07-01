@@ -788,7 +788,8 @@
 
         if (!_this.lgBusy) {
 
-            if (this.s.download) {
+            // en commentaire pour bloquer le téléchargement
+            /*if (this.s.download) {
                 var _src;
                 if (_this.s.dynamic) {
                     _src = _this.s.dynamicEl[index].downloadUrl !== false && (_this.s.dynamicEl[index].downloadUrl || _this.s.dynamicEl[index].src);
@@ -803,7 +804,7 @@
                 } else {
                     _this.$outer.addClass('lg-hide-download');
                 }
-            }
+            }*/
 
             this.$el.trigger('onBeforeSlide.lg', [_prevIndex, index, fromTouch, fromThumb]);
 
