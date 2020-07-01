@@ -221,12 +221,4 @@ ul{
 
 
 
-#footer {
-    height: 100px;
-    margin-top: -50px;
-    position: fixed;
-    bottom:0;
-    width: 100%;
-    z-index: 1;
-    text-align:center;
-}
+
