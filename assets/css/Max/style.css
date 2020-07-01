@@ -11373,7 +11373,7 @@ h5,
   font-size: 8px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .btn:hover,
 .btn:active,
@@ -12635,10 +12635,10 @@ textarea.form-control {
     -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
     box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-    font-size: 6px;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 800;
   }
   .ftco-about ul.about-info li span {
     color: #000;
