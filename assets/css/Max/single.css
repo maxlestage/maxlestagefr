@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+    .hero-wrap {
+        width: 100%;
+        height: 100%;
+        position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 60% 0% !important;
+    }
+}
