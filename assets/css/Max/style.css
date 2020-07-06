@@ -12641,7 +12641,7 @@ textarea.form-control {
     font-weight: 800;
   }
   .ftco-about ul.about-info li span {
-    color: #000;
+    color: #000 !important;
   }
   .hero-wrap {
     width: 100%;
