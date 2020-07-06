@@ -12659,4 +12659,13 @@ textarea.form-control {
   .text{
     padding-bottom: 30%
   }
+  .heading-section h1.big.big-2 {
+    right: 0;
+    font-size: 50px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 45%;
+  }
 }
