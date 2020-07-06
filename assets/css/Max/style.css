@@ -12651,3 +12651,9 @@ textarea.form-control {
     background-repeat: no-repeat;
     background-position: 60% 0%;
 }
+  .owl-carousel.home-slider {
+    position: relative;
+    height: 52em;
+    z-index: 0;
+  }
+}
