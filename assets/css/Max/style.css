@@ -11087,7 +11087,7 @@ h5,
     left: 0;
     bottom: 0;
     right: 0;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -12668,4 +12668,8 @@ textarea.form-control {
     margin-bottom: 2rem;
     font-size: 55%;
   }
+}
+
+.one-forth.d-flex.align-items-center.ftco-animate.fadeInUp.ftco-animated {
+  margin-top: 10%;
 }
