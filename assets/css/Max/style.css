@@ -12673,3 +12673,7 @@ textarea.form-control {
 .one-forth.d-flex.align-items-center.ftco-animate.fadeInUp.ftco-animated {
   margin-top: 10%;
 }
+
+.img.d-flex.align-self-stretch.align-items-center {
+  width: 80%;
+}
